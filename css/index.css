@@ -1,0 +1,185 @@
+/* main body settings */
+body{
+    font-size: 18pt;
+    font-family: 'Times New Roman', Times, serif;
+ 
+}
+/* navigation links in the navbar */
+
+.nav-link{
+    font-size: 28pt;
+    color: white;
+    margin-top: 50pt;
+    text-shadow: 7px 7px 6px rgb(0, 0, 0);   
+}
+
+/* navbar body */
+
+.navbar{
+    background-color:rgb(14, 14, 83);
+    max-height: 150px;
+}
+
+/* Image for logo */
+#logo {
+    max-height: 140px;   
+} 
+
+/* text on logo */
+h1 {
+    font-size: 55pt;
+    color: white;
+    text-align: center;
+    /* font-family: 'Times New Roman', Times, serif; */
+    line-height: 50pt;
+    text-shadow: 2px 2px 0px rgb(24, 161, 24);   
+}
+
+/* height of slideshow */
+#nav-address {
+    margin-bottom: 100px ;
+}
+
+/* slides in slideshow */
+.d-block {
+    max-height: 600px;
+    max-width: 1200px;
+    align-content: stretch; 
+    width: 40%;
+    margin: auto; 
+}
+
+/* slideshow button size */
+.carousel-control-prev-icon {
+    height: 50%;
+    top: 33%;
+    width: 60px;
+}
+
+.carousel-control-next-icon {
+    height: 50%;
+    top: 33%;
+    width: 60px;
+}
+
+/* mission statement text */
+ p{
+    /* font-size: 20pt; */
+    color: rgb(200, 200, 183);
+    text-align: center;
+ }
+
+ /* area behind cards */
+ .carousel-inner {
+    background-color: rgb(0, 0, 0);
+    }
+
+/* text on turtle slide turned off currently */
+#turtleText {
+    font-size: 28pt;
+    color: rgb(243, 255, 74);
+    text-align: right;
+    margin-right: 30px;
+    line-height: 35pt;
+}
+
+
+/* text on cards in the slideshow */
+#spiderText {
+ margin-bottom: 185px;
+ text-align: left;
+ color: cornflowerblue;
+ margin-right: 700px;
+}
+
+/* area behind cards */
+.scrolling-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: 	rgb(0, 0, 0);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+    
+/* individual cards */
+.card {
+      height: 520px;
+      width: 500px;
+      background-color: black;
+      margin-top: 20px;
+      margin-bottom: 20px;
+      border-style: solid;
+      border-width: 8px;
+      border-color: rgb(50, 182, 209);
+      border-radius: 10px;
+       /* neon glow on border */
+      -webkit-box-shadow:0 0 20px blue; 
+      -moz-box-shadow: 0 0 20px blue; 
+       box-shadow:0 0 30px rgb(50, 182, 209);
+      
+    }
+
+/* sale card */
+.sale {
+    font-size: 35px;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #8d8d9e;
+    line-height: 48px;
+}
+
+/* contest card */
+.winner{
+    font-size: 24px;
+    text-shadow: 2px 2px 8px #1c67f3;
+}
+
+/* care card */
+.care{
+    font-size: 27px;
+    text-shadow: 2px 2px 8px #1c67f3;
+    line-height: 30px;
+}
+
+/* container for footer info */
+.containerb{
+    color: white;
+    background-color: rgb(14, 14, 83);
+    
+    
+}
+
+/* box around social media logos */
+.social{
+      /* border-width: 5px;
+    border-color: white;
+    border-style: solid;
+    min-width: 1800px; */ */
+    /* align-content: center; */
+}
+
+/* marguee currently off */
+marquee{
+    background-color: rgb(14, 14, 83);
+    color:white;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #8d8d9e;
+}
+
+/* text in the footer */
+h6{
+    font-size: 24pt;
+    margin-bottom: 10px;
+    
+}
+
+/* copyright container */
+.footer-copyright{
+    background-color: rgb(14, 14, 83);
+    color: white;
+}
+
+
+
+  
+
