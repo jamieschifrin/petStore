@@ -18,9 +18,11 @@ body{
 
 .navbar{
     background-color:rgb(14, 14, 83);
-    max-height: 150px;
+    max-height: 190px;
+    border-bottom: white;
+    border-width: 5px;
+    border-style: solid;
 }
-
 /* Image for logo */
 #logo {
     max-height: 140px;   
@@ -168,17 +170,8 @@ h1 {
 /* box around social media logos */
 .socialb{
     text-align: center;
-    margin-right: 80px;
-}
-
-/* marguee currently off */
-marquee{
-    background-color: rgb(14, 14, 83);
-    color:white;
-    font-size: 50pt;
-    text-shadow: 0 0 3px #FF0000, 0 0 5px #8d8d9e;
-    height: 100px;
-    
+    margin-right: 0px;
+    border-top: 5px solid rgb(255, 255, 255);
 }
 
 /* text in the footer */
@@ -200,6 +193,7 @@ h6{
 .backgroundpicture{
     background: url("../assets/images/pet store/owl-animals-black-black.jpg");
     height: 620px;
+    
 }
 
 h2{
@@ -208,6 +202,7 @@ h2{
     max-width: 900px;
     margin-left: 300px;
     text-shadow:  2px 3px  #164aee;
+   
 }
 
 h3{
@@ -217,10 +212,12 @@ h3{
     width: 700px;
       text-shadow:  2px 3px  #164aee;
 }
+
 #raptor {
     font-size: 35pt;
     margin-left: 400px;
     text-shadow: 0 0 3px #FF0000, 0 0 5px #164aee;
+   line-height: 80px;
     
     
 }

@@ -1,0 +1,67 @@
+body{
+    background-color:#93C2BC;
+}
+.container{
+    width: 70%;
+    padding: 20px;
+    background-color: #FEF7F3;
+}
+.flex-container-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+}
+i{
+    font-size: 30px;
+    padding: 2px;
+}
+/* above is the same across all css */
+img{
+    max-width: 150px;
+    max-height: auto;
+}
+.container-two{
+    display: flex;
+    direction: row;
+    flex-wrap: wrap;
+}
+.product{
+    width: 25%;
+    height: 10%;
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-bottom: 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid #D9D5D2;
+    border-radius: 15px;
+    background-color: white;
+}
+.hoverProduct{
+    display: none;
+}
+.hoverProduct p{
+    font-family: 'Goudy Bookletter 1911', serif;
+}
+span:hover + .hoverProduct{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 4%;
+    padding-bottom: 2%;
+}
+.hoverProduct:hover{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 4%;
+    padding-bottom: 2%;
+}
+
+
+
+
+

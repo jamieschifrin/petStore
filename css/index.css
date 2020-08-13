@@ -18,7 +18,10 @@ body{
 
 .navbar{
     background-color:rgb(14, 14, 83);
-    max-height: 150px;
+    max-height: 190px;
+    border-bottom: white;
+    border-width: 5px;
+    border-style: solid;
 }
 
 /* Image for logo */

@@ -49,16 +49,16 @@
           <h2>Send us a Message</h2>
 
           <h5>Enter your Email address below:</h5>
-          <form action="" id="form" >
+          <form action="" id="form" onSubmit="myFunction(event)">
 
-            <input class='data' type="text" name="data"  placeholder="">
+            <input id="input1" class='data' type="email" required  name="data"  placeholder="">
             <br/>
             <h5>Enter your message below:</h5>
             <!-- <input type="text" name="data" id="data1" placeholder="message here"> -->
-            <textarea  class='data' name="text" rows="14" cols="23" wrap="soft"> </textarea>
+            <textarea id="input2" class='data' name="text" rows="14" cols="23" wrap="soft"> </textarea>
             <br/>
-            <br/>
-            <button onsubmit="sConsole(event)" type="submit" id="emailbutton" >Submit</button>
+            
+            <button  type="email" required id="emailbutton" >SUBMIT </button>
           </form>
         </div>
   
@@ -75,7 +75,7 @@
       <div class="containerb">
   
         <!-- Grid row-->
-        <div class="soocialb row py-4 d-flex ">
+        <div class="socialb row py-4 d-flex ">
   
           <!-- Grid column -->
           <!-- <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
@@ -224,6 +224,7 @@
     </div>
     <!-- Copyright -->
   
+    <script src="./js/contact.js"></script>
   </footer>
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
      
@@ -236,7 +237,7 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js" integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0=" crossorigin="anonymous"></script>
-    <script src="./js/index.js"></script>
+    <script src="./js/contact.js"></script>
 
 
 
