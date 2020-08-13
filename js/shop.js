@@ -10,25 +10,25 @@ var shop =[
         title: "LION FISH",
         image: "./assets/images/pet store/StoreImages/2.jpg",
         price: 119.99,
-        description: "A wonderful fish looking for a new home! Take me Home today!"
+        description: "A wonderful fish looking for a new home! "
     },
     {
         title: "BLUE JELLY",
-        image: "./assets/images/pet store/StoreImages/3.JPG",
+        image: "./assets/images/pet store/StoreImages/3.jpg",
         price: 99.99,
-        description: "A wonderful fish looking for a new home! Take me Home today!"
+        description: "A wonderful fish looking for a new home! "
     },
     {
         title: "YELLOW TANG",
-        image: "./assets/images/pet store/StoreImages/4.JPG",
+        image: "./assets/images/pet store/StoreImages/4.jpg",
         price: 49.99,
-        description: "A wonderful fish looking for a new home! Take me Home today!"
+        description: "A wonderful fish looking for a new home! "
     },
     {
         title: "SEA HORSE",
-        image: "./assets/images/pet store/StoreImages/5.JPG",
+        image: "./assets/images/pet store/StoreImages/5.jpg",
         price: 59.99,
-        description: "A wonderful fish looking for a new home! Take me Home today!"
+        description: "A wonderful fish looking for a new home! "
     },
     {
         title: "BETTA",
