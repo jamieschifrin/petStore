@@ -90,12 +90,7 @@ var shop =[
         price: 499.99,
         description: "A wonderful Owl looking for a new home!"
     },
-    {
-        title: "SPOTTED IGUANA",
-        image: "./assets/images/pet store/StoreImages/17.jpg",
-        price: 79.99,
-        description: "A wonderful Iguana looking for a new home!"
-    },
+   
     {
         title: "GECCO",
         image: "./assets/images/pet store/StoreImages/18.jpg",
@@ -108,17 +103,12 @@ var shop =[
         price: 379.99,
         description: "A wonderful llama looking for a new home!"
     },
-    {
-        title: "MASTER IGUANA",
-        image: "./assets/images/pet store/StoreImages/20.jpg",
-        price: 149.99,
-        description: "A wonderful Iguana looking for a new home!"
-    },
+    
     {
         title: "PURE SIAMESE",
         image: "./assets/images/pet store/StoreImages/21.jpg",
         price: 499.99,
-        description: "A wonderful Cat Frog looking for a new home!"
+        description: "A wonderful Cat  looking for a new home!"
     },
     {
         title: "Sugar Glider",
@@ -144,6 +134,13 @@ var shop =[
         price: 399.99,
         description: "A wonderful Frog looking for a new home!"
     },
+    
+    {
+        title: "FALCON",
+        image: "./assets/images/pet store/StoreImages/27.jpg",
+        price: 299.99,
+        description: "A wonderful Hawk looking for a new home!"
+    },
     {
         title: "RED TAILED HAWK",
         image: "./assets/images/pet store/StoreImages/26.jpg",
@@ -151,10 +148,16 @@ var shop =[
         description: "A wonderful Hawk looking for a new home!"
     },
     {
-        title: "FALCON",
-        image: "./assets/images/pet store/StoreImages/27.jpg",
-        price: 299.99,
-        description: "A wonderful Hawk looking for a new home!"
+        title: "SPOTTED IGUANA",
+        image: "./assets/images/pet store/StoreImages/17.jpg",
+        price: 79.99,
+        description: "A wonderful Iguana looking for a new home!"
+    },
+    {
+        title: "MASTER IGUANA",
+        image: "./assets/images/pet store/StoreImages/20.jpg",
+        price: 149.99,
+        description: "A wonderful Iguana looking for a new home!"
     },
 ]
 

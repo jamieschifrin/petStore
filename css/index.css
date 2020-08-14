@@ -157,6 +157,7 @@ h1 {
     background-color: rgb(14, 14, 83);
     
     
+    
 }
 
  /* mission statement text */
@@ -166,24 +167,10 @@ h1 {
     color: rgb(200, 200, 183);
     text-align: center;
  }
-/* box around social media logos */
-.social{
-      /* border-width: 5px;
-    border-color: white;
-    border-style: solid;
-    min-width: 1800px; */ 
-    /* align-content: center; */
-}
 
-/* marguee currently off */
-marquee{
-    background-color: rgb(14, 14, 83);
-    color:white;
-    font-size: 50pt;
-    text-shadow: 0 0 3px #FF0000, 0 0 5px #8d8d9e;
-    height: 100px;
-    
-}
+
+
+
 
 /* text in the footer */
 h6{
@@ -198,15 +185,144 @@ h6{
     color: white;
 }
 
-.video {
+/* div holding video */
+.video-row {
 background: black;
+display: flex;
+justify-content: space-evenly;
+border-bottom: 5px solid white;
+
 }
 
+/* blue divider */
 .textabove {
     text-align: center;
+    background-color: rgb(14, 14, 83);
+    border-bottom: 5px solid white;
+    color: rgb(14, 14, 83);
+    height: 50px;
+}
+
+/* youtube video */
+.tube {
+    border-style: solid;
+    border-width: 8px;
+    border-color: rgb(50, 182, 209);
+    border-radius: 5%;
+    box-shadow:0 0 30px rgb(50, 182, 209);    
+    margin: 40px;
+}
+
+/* other blue divider */
+.textaboveone {
+    text-align: center;
+    background-color: rgb(14, 14, 83);
+    border-top: 5px solid white;
+    color: rgb(14, 14, 83);
+    height: 50px;
+}
+
+/* div containing words on video row */
+ .wordsbox {
+    width:800px;
+     height: 315;
+     border-style: solid;
+     border-width: 8px;
+     border-color: rgb(230, 62, 62);
+     border-radius: 20px;
+     box-shadow:0 0 30px rgb(155, 43, 43);    
+     margin: 40px;
+     
+    
+}
+/* covid-19 */
+h3 {
+    font-size: 50pt;
+    text-align: center;
+    margin-top: 10px;
+    color: red;
+}
+/* other text in red box */
+h4 {
+    font-size: 30px;
+    text-shadow: 2px 2px 8px #1c67f3;
+    line-height: 35px;
+    color: white;
+    text-align: center;
+    max-width: 600px;
+    margin-left: 55px;
+}
+
+/* items listed in covid-19 */
+.list {
+    font-size: 30px;
+    text-shadow: 2px 2px 8px #1c67f3;
+    line-height: 40px;
+    color: rgb(255, 135, 135);   
+    max-width: 600px;
+    margin-left: 70px;
+
+}
+
+.underline {
+    border-top: 1px solid rgb(241, 149, 149);
+    width: 90%;
+}
+/* take the tour text */
+#vidtour {
+    font-size: 45px;
+    text-shadow: 2px 2px 8px #1c67f3;
+    color:rgb(50, 182, 209);
+    margin-left: 32px;
+    margin-bottom: 20px;
 }
 
 
 
+
+/*  bottom pic scroll */
+
+.scrollmenu {
+    background-color: rgb(0, 0, 0);
+    overflow: auto;
+    white-space: nowrap;
+    height: 360px;
+  }
   
+.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+.scrollmenu a:hover {
+    background-color: rgb(14, 14, 83);
+  }
+
+
+.scrollmenu img {
+    background-color: rgb(7, 0, 0)0, 10, 10;
+    -webkit-box-shadow:0 0 20px rgb(50, 182, 209); 
+    -moz-box-shadow: 0 0 20px rgb(50, 182, 209); 
+    box-shadow:0 0 30px rgb(50, 182, 209);
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(50, 182, 209);
+    border-radius: 50%;
+    margin-top: 26px;
+}
+
+
+.textabovethree {
+    padding-top: 7px;
+    font-size: 30pt;
+    text-align: center;
+    background-color: rgb(14, 14, 83);
+    border-bottom: 5px solid white;
+    color: rgb(255, 255, 255);
+    height: 80px;
+    text-shadow: 7px 7px 6px rgb(0, 0, 0);   
+}
 

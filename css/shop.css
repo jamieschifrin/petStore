@@ -23,10 +23,10 @@ body{
     border-width: 5px;
     border-style: solid;
 
-    overflow: hidden;
+    /* overflow: hidden;
     position: fixed;
     top: 0;
-    width: 100%;
+    width: 100%; */
 }
 
 /* Image for logo */
@@ -224,7 +224,7 @@ img{
     display: flex;
     direction: row;
     flex-wrap: wrap;
-    padding-top: 220px;
+    padding-top: 20px;
 }
 .product{
     margin-top: 30px;
@@ -244,7 +244,7 @@ img{
     border-style: solid;
     border-width: 8px;
     border-color: rgb(50, 182, 209);
-    border-radius: 15px;
+    border-radius: 5%;
 
 
 }
@@ -252,12 +252,7 @@ img{
     display: none;
 }
 
-/* text on expand */
-.hoverProduct p{
-   color:white;
-   
-   
-}
+
 
 span:hover + .hoverProduct{
     display: flex;
@@ -277,20 +272,28 @@ span:hover + .hoverProduct{
     padding-bottom: 2%;
     
 }
-
+/* text on top of card */
 h5{
     font-size: 35px;
     margin-top: 12px;
     text-shadow: 2px 2px 8px #1c67f3;
-    color: white;
+    color: rgb(237, 252, 255);
 }
-
+/* price on card */
 .product {
-    font-size: 28px;
+    font-size: 35px;
     text-shadow: 2px 2px 8px #1c67f3;
-    color: white;
+    color: rgb(194, 243, 253);
 
 }
+
+/* text on expand of card*/
+.hoverProduct p{
+    color:rgb(231, 246, 248);
+    text-shadow: 2px 2px 8px #1c67f3;
+    
+    
+ }
 
 .btn {
     margin-bottom: 30px;
