@@ -2,7 +2,8 @@
 body{
     font-size: 18pt;
     /* font-family: 'Times New Roman', Times, serif; */
-    font-family: sans-serif
+    font-family: sans-serif;
+    background-color: black;
  
 }
 /* navigation links in the navbar */
@@ -197,6 +198,11 @@ h6{
     
     background: url("../assets/images/pet store/onblack/bird\ contact.jpg");
     height: 620px;
+    background-repeat: no-repeat;
+    background-color: black;
+    margin-left: 20%;
+
+  
     
     
 }
@@ -209,7 +215,7 @@ h6{
     border-style: solid;
     max-width: 600px;
     text-align: center;
-    margin-left: 950px;
+    margin-left: 35%;
     padding-top: 10px;
     height: 615px;
     border-style: solid;
@@ -219,11 +225,15 @@ h6{
        /* neon glow on border */
     -webkit-box-shadow:0 0 20px blue; 
     -moz-box-shadow: 0 0 20px blue; 
-    box-shadow:0 0 30px rgb(50, 182, 209);
+    box-shadow:0 0 15px rgb(50, 182, 209);
     transform: scale(0.9);
     
 }
+.fillin:hover {
 
+    box-shadow:0 0 45px rgb(50, 182, 209);
+
+}
 /* text for email input */
 
 h5 {

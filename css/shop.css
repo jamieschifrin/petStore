@@ -3,7 +3,8 @@ body{
     font-size: 18pt;
     /* font-family: 'Times New Roman', Times, serif; */
     font-family: sans-serif;
-    background-color:black
+    background-color: black;
+ 
 }
 /* navigation links in the navbar */
 
@@ -22,11 +23,6 @@ body{
     border-bottom: white;
     border-width: 5px;
     border-style: solid;
-
-    /* overflow: hidden;
-    position: fixed;
-    top: 0;
-    width: 100%; */
 }
 
 /* Image for logo */
@@ -42,113 +38,6 @@ h1 {
     font-family: 'Times New Roman', Times, serif;
     line-height: 50pt;
     text-shadow: 2px 2px 0px rgb(24, 161, 24);   
-}
-
-/* SLIDESHOW */
-
-/* height of slideshow */
-#nav-address {
-    margin-bottom: 100px ;
-}
-
-/* slides in slideshow */
-.d-block {
-    max-height: 600px;
-    max-width: 1200px;
-    align-content: stretch; 
-    width: 40%;
-    margin: auto; 
-}
-
-/* slideshow button size */
-.carousel-control-prev-icon {
-    height: 50%;
-    top: 33%;
-    width: 60px;
-}
-
-.carousel-control-next-icon {
-    height: 50%;
-    top: 33%;
-    width: 60px;
-}
-
-
-/* END SLIDESHOW */
-
-/* CARDS */
-
- /* area behind cards */
- .carousel-inner {
-    background-color: rgb(0, 0, 0);
-}
-
-/* text on turtle slide turned off currently */
-#turtleText {
-    font-size: 28pt;
-    color: rgb(243, 255, 74);
-    text-align: right;
-    margin-right: 30px;
-    line-height: 35pt;
-}
-
-
-/* text on cards in the slideshow */
-#spiderText {
-    margin-bottom: 185px;
-    text-align: left;
-    color: cornflowerblue;
-    margin-right: 700px;
-}
-
-/* area behind cards */
-.scrolling-wrapper {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    background-color: 	rgb(0, 0, 0);
-    margin-top: 5px;
-    margin-bottom: 5px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-    
-/* individual cards */
-.card {
-      height: 520px;
-      width: 500px;
-      background-color: black;
-      margin-top: 20px;
-      margin-bottom: 20px;
-      border-style: solid;
-      border-width: 8px;
-      border-color: rgb(50, 182, 209);
-      border-radius: 10px;
-       /* neon glow on border */
-      -webkit-box-shadow:0 0 20px blue; 
-      -moz-box-shadow: 0 0 20px blue; 
-       box-shadow:0 0 30px rgb(50, 182, 209);   
-    }
-
-
-/* sale card */
-.sale {
-    font-size: 35px;
-    text-shadow: 0 0 3px #FF0000, 0 0 5px #8d8d9e;
-    line-height: 48px;
-}
-
-/* contest card */
-.winner {
-    font-size: 24px;
-    text-shadow: 2px 2px 8px #1c67f3;
-}
-
-/* care card */
-.care {
-    font-size: 27px;
-    text-shadow: 2px 2px 8px #1c67f3;
-    line-height: 30px;
 }
 
 
@@ -215,8 +104,8 @@ i{
     padding: 2px;
 }
 /* above is the same across all css */
-img{
-    max-width:275px;
+#pics {
+    width:  250px;
     max-height: auto;
     margin-bottom: 10px;
 }
@@ -238,16 +127,17 @@ img{
     align-items: center;
     text-align: center;
     background-color: rgb(7, 0, 0)0, 10, 10;
-    -webkit-box-shadow:0 0 20px rgb(50, 182, 209); 
-    -moz-box-shadow: 0 0 20px rgb(50, 182, 209); 
-    box-shadow:0 0 30px rgb(50, 182, 209);
     border-style: solid;
     border-width: 8px;
     border-color: rgb(50, 182, 209);
     border-radius: 5%;
+    box-shadow:0 0 15px rgb(50, 182, 209);}
 
-
+.product:hover {
+    
+    box-shadow:0 0 45px rgb(50, 182, 209);
 }
+
 .hoverProduct{
     display: none;
 }
@@ -261,8 +151,11 @@ span:hover + .hoverProduct{
     margin-left: 4%;
     margin-right: 4%;
     padding-bottom: 2%;
-    
 }
+
+      
+    
+
 .hoverProduct:hover{
     display: flex;
     flex-direction: column;
@@ -270,8 +163,8 @@ span:hover + .hoverProduct{
     margin-left: 4%;
     margin-right: 4%;
     padding-bottom: 2%;
-    
 }
+
 /* text on top of card */
 h5{
     font-size: 35px;
@@ -279,6 +172,7 @@ h5{
     text-shadow: 2px 2px 8px #1c67f3;
     color: rgb(237, 252, 255);
 }
+
 /* price on card */
 .product {
     font-size: 35px;
@@ -291,6 +185,7 @@ h5{
 .hoverProduct p{
     color:rgb(231, 246, 248);
     text-shadow: 2px 2px 8px #1c67f3;
+    font-size: 15pt;
     
     
  }

@@ -78,23 +78,10 @@ h1 {
     background-color: rgb(0, 0, 0);
 }
 
-/* text on turtle slide turned off currently */
-#turtleText {
-    font-size: 28pt;
-    color: rgb(243, 255, 74);
-    text-align: right;
-    margin-right: 30px;
-    line-height: 35pt;
-}
 
 
-/* text on cards in the slideshow */
-#spiderText {
-    margin-bottom: 185px;
-    text-align: left;
-    color: cornflowerblue;
-    margin-right: 700px;
-}
+
+
 
 /* area behind cards */
 .scrolling-wrapper {
@@ -225,7 +212,7 @@ border-bottom: 5px solid white;
 /* div containing words on video row */
  .wordsbox {
     width:800px;
-     height: 315;
+     max-height: 315;
      border-style: solid;
      border-width: 8px;
      border-color: rgb(230, 62, 62);
@@ -286,8 +273,41 @@ h4 {
     background-color: rgb(0, 0, 0);
     overflow: auto;
     white-space: nowrap;
-    height: 360px;
-  }
+    height: 380px;
+}
+
+/* height of scrollbar */
+.scrollmenu::-webkit-scrollbar {
+        width: 100px;
+        height: 45px;
+        
+
+}    
+       
+      /* Track */
+      
+.scrollmenu::-webkit-scrollbar-track {
+        background: rgb(115, 116, 209);
+        opacity: 0.2;
+      border-top: 5px solid white;
+      border-bottom: 5px solid white;
+ }      
+      /* Handle */
+      
+.scrollmenu::-webkit-scrollbar-thumb {
+        width: 700px;
+        background: rgb(255, 255, 255); 
+        max-height: 40px;
+      }
+      
+      /* Handle on hover */
+      
+.scrollmenu::-webkit-scrollbar-thumb:hover {
+        background: #1c67f3;
+      
+
+      }
+  
   
 .scrollmenu a {
     display: inline-block;
@@ -312,17 +332,19 @@ h4 {
     border-color: rgb(50, 182, 209);
     border-radius: 50%;
     margin-top: 26px;
+    margin-right: 15px;
 }
 
 
 .textabovethree {
     padding-top: 7px;
-    font-size: 30pt;
+    font-size: 40pt;
     text-align: center;
     background-color: rgb(14, 14, 83);
     border-bottom: 5px solid white;
-    color: rgb(255, 255, 255);
-    height: 80px;
-    text-shadow: 7px 7px 6px rgb(0, 0, 0);   
+    color: rgb(50, 182, 209);
+    height: 100px;
+    text-shadow: 0px 0px 6px rgb(47, 248, 255);   
+    
 }
 
